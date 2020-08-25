@@ -4,11 +4,9 @@ s = (r * r) * Math.PI;
 v = s * h;
 sum = v;
 
-alert(`Обьем цилиндра с площадью основы: ${s}, радиусом: ${r} и высотой: ${h} равен: ${v} `);
+alert(`Обьем цилиндра с площадью основы: ${s.toFixed(2)}, радиусом: ${r} и высотой: ${h} равен: ${sum.toFixed(2)} `);
 
-alert(`V = ${sum}`);
-
-document.write('<p>'+sum+'</p>');
+document.write('<p>'+sum.toFixed(2)+'</p>');
 
 
 
