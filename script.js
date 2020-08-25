@@ -8,6 +8,8 @@ alert(`Обьем цилиндра с площадью основы: ${s.toFixed
 
 document.write('<p>'+sum.toFixed(2)+'</p>');
 
+console.log (sum);
+
 
 
 // console.log( );
