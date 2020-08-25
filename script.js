@@ -2,10 +2,13 @@ r = prompt ('Какой радиус цилиндра?', '');
 h = prompt ('Какая высота цилиндра?', '');
 s = (r * r) * Math.PI;
 v = s * h;
+sum = v;
 
 alert(`Обьем цилиндра с площадью основы: ${s}, радиусом: ${r} и высотой: ${h} равен: ${v} `);
 
-alert(`V = ${v}`);
+alert(`V = ${sum}`);
+
+document.write('<p>'+sum+'</p>');
 
 
 
@@ -41,7 +44,7 @@ alert(`V = ${v}`);
 // console.log(z);
 // console.log(x,y,z);
 
-// document.write('<p>'+x+'</p>');
+
 // document.write('<div>'+y+'</div>');
 // document.write(z);
 
